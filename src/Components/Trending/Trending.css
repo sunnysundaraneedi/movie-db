@@ -1,0 +1,14 @@
+.trending_container {
+  width: 95%;
+  margin: 16px auto;
+  margin-bottom: 80px;
+}
+.title {
+  font-weight: 300;
+  text-align: center;
+  font-size: 24px;
+}
+.trending {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
