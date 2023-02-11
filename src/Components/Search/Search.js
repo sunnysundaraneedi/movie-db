@@ -25,7 +25,7 @@ const Search = () => {
   useEffect(() => {
     fetchData();
     // eslint-disable-next-line
-  }, [page, type]);
+  }, [page, type, searchInput]);
 
   const searchHandler = () => {
     fetchData();
